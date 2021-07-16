@@ -1,0 +1,9 @@
+# prettier-ignore
+version: "3.5"
+services:
+  challenger:
+    build: .
+    container_name: challenger
+    ports:
+      - 7777:7777
+
